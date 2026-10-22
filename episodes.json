@@ -1,0 +1,101 @@
+[
+  {
+    "guid": "80f8b401-87bc-4559-a830-51e8a960dc45",
+    "title": "Software Engineering at Google, Ch 11: Testing Overview (Original Cut)",
+    "description": "Why did Google stop trusting smart engineers alone to keep bugs out? In this deep dive on Chapter 11 of Software Engineering at Google (Winters, Manshreck & Wright; chapter by Adam Bender), we follow the Google Web Server's turnaround from a mostly-rolled-back release process to a test-every-change culture, then unpack the chapter's toolkit: test size versus scope, hermetic and flaky tests, the 80/15/5 test pyramid and its ice-cream-cone and hourglass antipatterns, the Beyonc\u00e9 Rule, why code coverage misleads, and how bathroom flyers and a five-level certification ladder changed engineering habits without a leadership mandate. Built from an IntuiBloom knowledge graph. Explore the IntuiBloom graph: https://www.IntuiBloom.com/share/zpspbstUa4zxmLl41nB3z9I1uDhAQG5TT7gEptFsZ1s=",
+    "file": "software-engineering-at-google-ch11-testing-overview.mp3",
+    "length": 24446475,
+    "duration": 1528,
+    "pub_date": "2026-10-21T11:00:00-07:00"
+  },
+  {
+    "guid": "7675adba-c505-4bf9-b32d-f18630a88b6d",
+    "title": "Software Engineering at Google, Ch 12: Unit Testing (Original Cut)",
+    "description": "Why can a screen full of failing tests contain zero real bugs? In this deep dive on Chapter 12 of Software Engineering at Google (Winters, Manshreck & Wright; chapter by Erik Kuefler), we unpack Google's case that unit-test quality is a maintainability problem: brittle versus unchanging tests, the four kinds of code change, testing through public APIs, state over interactions, complete and concise tests, testing behaviors instead of methods, given/when/then structure, behavior-based names, no logic in tests, clear failure messages, and why test code should be DAMP rather than DRY. Built from an IntuiBloom knowledge graph. Explore the IntuiBloom graph: https://www.IntuiBloom.com/share/8ISYoNMOHzzSEnVOaT6yKWYf3rbsKsUGjl50I-pelt8=",
+    "file": "software-engineering-at-google-ch12-unit-testing.mp3",
+    "length": 23323419,
+    "duration": 1458,
+    "pub_date": "2026-10-21T12:00:00-07:00"
+  },
+  {
+    "guid": "78c3e600-41d5-4663-ac05-07f7e393bc55",
+    "title": "Software Engineering at Google, Ch 13: Test Doubles (Original Cut)",
+    "description": "Why did Google's love affair with mocking frameworks turn into a maintenance bill? In this deep dive on Chapter 13 of Software Engineering at Google (Winters, Manshreck & Wright; chapter by Andrew Trenk and Dillon Bly), we unpack test doubles: seams and dependency injection, the three techniques of faking, stubbing, and interaction testing, why Google prefers real implementations and classical over mockist testing, the @DoNotMock annotation, how to judge fidelity and when to write a fake, the dangers of overusing stubs, change-detector tests, and why state testing beats interaction testing. Built from an IntuiBloom knowledge graph. Explore the IntuiBloom graph: https://www.IntuiBloom.com/share/TMJjSeRU5xFr6K_nfy_fRhAADJAOzPCedTlI7pP1eCs=",
+    "file": "software-engineering-at-google-ch13-test-doubles.mp3",
+    "length": 24087448,
+    "duration": 1505,
+    "pub_date": "2026-10-21T13:00:00-07:00"
+  },
+  {
+    "guid": "1480be0a-0498-4a1d-9bce-0493699de947",
+    "title": "Software Engineering at Google, Ch 14: Larger Testing (Original Cut)",
+    "description": "How did a Google test end up as an internet mystery on YouTube? In this deep dive on Chapter 14 of Software Engineering at Google (Winters, Manshreck & Wright; chapter by Joseph Graves), we explore larger tests: why fidelity is the reason they exist, the gaps unit tests leave (unfaithful doubles, configuration, load, unanticipated behavior, and the \"vacuum effect\"), why larger tests are slow, flaky, and hard to own, the anatomy of a system under test, record/replay, test data and verification, and a tour of Google's larger tests, from A/B diffs and probers to DiRT disaster drills and chaos engineering, plus how to keep them fast, understandable, and owned. Built from an IntuiBloom knowledge graph. Explore the IntuiBloom graph: https://www.IntuiBloom.com/share/ObB7txLOItkIiIDUwntnJAIeTdFFh1ltPLVoipmA_sU=",
+    "file": "software-engineering-at-google-ch14-larger-testing.mp3",
+    "length": 24387543,
+    "duration": 1524,
+    "pub_date": "2026-10-21T14:00:00-07:00"
+  },
+  {
+    "guid": "0ab5495a-a7f1-4afe-9e81-abe3604c8563",
+    "title": "Software Engineering at Google, Ch 2: How to Work Well on Teams (Original Cut)",
+    "description": "Why would anyone ask a code host to wipe all their history? In this deep dive on Chapter 2 of Software Engineering at Google (Winters, Manshreck & Wright; chapter by Brian Fitzpatrick), we open the book's culture section: the Genius Myth and the insecurity behind hiding work, why hiding is harmful (early detection, the bus factor, and pace of progress), the debate over private versus open offices, the three pillars of humility, respect, and trust, and how they play out in practice, from losing the ego and giving better code review feedback to failing fast, blameless postmortems, patience, and openness to influence, plus how Google replaced the vague \"Googley\" label with an explicit rubric. Built from an IntuiBloom knowledge graph. Explore the IntuiBloom graph: https://www.IntuiBloom.com/share/RmUgjY7UuR5Lv2xTJk2Xn1pgzthOMpTE72SepO1_rZg=",
+    "file": "software-engineering-at-google-ch2-how-to-work-well-on-teams.mp3",
+    "length": 22805567,
+    "duration": 1425,
+    "pub_date": "2026-10-21T02:00:00-07:00"
+  },
+  {
+    "guid": "1c6de254-66b3-4266-999e-a2ffe3555ed8",
+    "title": "Software Engineering at Google, Ch 3: Knowledge Sharing (Original Cut)",
+    "description": "How did one early engineer's habit of reviewing every new hire's code grow into a company-wide program? In this deep dive on Chapter 3 of Software Engineering at Google (Winters, Manshreck & Wright; chapter by Nina Chen and Mark Barolak), we explore knowledge sharing: the challenges to learning (information islands, single points of failure, parroting, and haunted graveyards), why psychological safety comes first, mentors and the Recurse Center's social rules, asking questions and Chesterton's fence, group chats, mailing lists, and Q&A systems, teaching through office hours, classes, and documentation, respect, peer bonuses, canonical guides and go links, and Google's readability program, including what its research found. Built from an IntuiBloom knowledge graph. Explore the IntuiBloom graph: https://www.IntuiBloom.com/share/LU27DhXw0cTLQNHWHpClRoQuBbUkbAssW2mReIdLhu8=",
+    "file": "software-engineering-at-google-ch3-knowledge-sharing.mp3",
+    "length": 22818942,
+    "duration": 1426,
+    "pub_date": "2026-10-21T03:00:00-07:00"
+  },
+  {
+    "guid": "f8cec040-1257-41b6-be2b-61a658acad2f",
+    "title": "Software Engineering at Google, Ch 4: Engineering for Equity (Original Cut)",
+    "description": "A two-host deep dive into Chapter 4 of Software Engineering at Google, Engineering for Equity, written by Demma Rodriguez and edited by Riona MacNamara. We cover the author's argument that bias is the default, the 2015 Google Photos failure, multicultural capacity, accountability, rejecting singular approaches, challenging established processes, and values versus outcomes, plus our even-handed take. Built from an IntuiBloom knowledge graph. Explore the IntuiBloom graph: https://www.IntuiBloom.com/share/M7d8ISYY_6cZ_pFHfLdPrrJiCspB5c2bFh1dtNXz4IE=",
+    "file": "software-engineering-at-google-ch4-engineering-for-equity.mp3",
+    "length": 22938478,
+    "duration": 1434,
+    "pub_date": "2026-10-21T04:00:00-07:00"
+  },
+  {
+    "guid": "3cc3038a-0c37-401a-bf26-afb77a54cf80",
+    "title": "Software Engineering at Google, Ch 5: How to Lead a Team (Original Cut)",
+    "description": "A two-host deep dive into Chapter 5 of Software Engineering at Google, How to Lead a Team, written by Brian Fitzpatrick and edited by Riona MacNamara. We cover managers, tech leads, and tech lead managers, influencing without authority, servant leadership, why failure has to be an option, the author's antipatterns and positive patterns, tracking happiness, and autonomy, mastery, and purpose, plus our take. Built from an IntuiBloom knowledge graph. Explore the IntuiBloom graph: https://www.IntuiBloom.com/share/-mVOKNPl4KuCKB9Hz5p7ydTd4fjJThoX981I-L-jG4g=",
+    "file": "software-engineering-at-google-ch5-how-to-lead-a-team.mp3",
+    "length": 22906714,
+    "duration": 1432,
+    "pub_date": "2026-10-21T05:00:00-07:00"
+  },
+  {
+    "guid": "54427264-cdc2-4181-a20c-9568debea578",
+    "title": "Software Engineering at Google, Ch 6: Leading at Scale (Original Cut)",
+    "description": "A two-host deep dive into Chapter 6 of Software Engineering at Google, Leading at Scale, written by Ben Collins-Sussman and edited by Riona MacNamara. We cover the author's three Always of leadership: Always Be Deciding, with the Web Search latency case and the good, fast, cheap triangle; Always Be Leaving, building a self-driving team that owns problems rather than solutions; and Always Be Scaling, the spiral of success, important versus urgent, learning to drop balls, and protecting your energy, plus our take. Built from an IntuiBloom knowledge graph. Explore the IntuiBloom graph: https://www.IntuiBloom.com/share/4WdfYMqhDbXabI4R8kp6MrIs8i3KNREk2YIH7rZp77c=",
+    "file": "software-engineering-at-google-ch6-leading-at-scale.mp3",
+    "length": 24505407,
+    "duration": 1532,
+    "pub_date": "2026-10-21T06:00:00-07:00"
+  },
+  {
+    "guid": "04d1287c-3678-41ac-805d-62c8f18f4d4c",
+    "title": "Software Engineering at Google, Ch 7: Measuring Engineering Productivity (Original Cut)",
+    "description": "A two-host deep dive into Chapter 7 of Software Engineering at Google, Measuring Engineering Productivity, written by Ciera Jaspan and edited by Riona MacNamara. We cover why Google measures productivity, the triage questions that decide whether something is worth measuring, the goals, signals, and metrics framework, the five QUANTS components, validating numbers with qualitative data, and the readability case study, plus our take. Built from an IntuiBloom knowledge graph. Explore the IntuiBloom graph: https://www.IntuiBloom.com/share/IgQf50-jNaB1c7LWe8_U6VVjRXak8jVUlYomwivaZMU=",
+    "file": "software-engineering-at-google-ch7-measuring-engineering-productivity.mp3",
+    "length": 22984872,
+    "duration": 1437,
+    "pub_date": "2026-10-21T07:00:00-07:00"
+  },
+  {
+    "guid": "a05c5e63-0100-4f44-acb8-7a5e711e843d",
+    "title": "Software Engineering at Google, Ch 8: Style Guides and Rules (Original Cut)",
+    "description": "A two-host deep dive into Chapter 8 of Software Engineering at Google, Style Guides and Rules, written by Shaindel Schwartz and edited by Tom Manshreck. We cover rules versus guidance, the five principles behind Google's style guides, why consistency matters and when to give it up, the three kinds of style guide rules, how rules change and who decides, exceptions, and enforcing rules with error checkers and formatters, including the Go formatting case study, plus our take. Built from an IntuiBloom knowledge graph. Explore the IntuiBloom graph: https://www.IntuiBloom.com/share/Ow2W5GghMANamHzFU7F_nvOB1v7nFv6mcRnaD4U4vzw=",
+    "file": "software-engineering-at-google-ch8-style-guides-and-rules.mp3",
+    "length": 24117123,
+    "duration": 1507,
+    "pub_date": "2026-10-21T08:00:00-07:00"
+  }
+]
